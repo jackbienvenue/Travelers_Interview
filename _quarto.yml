@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs 
+
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    css: jb_revealjs_style.css
+    embed-resources: true
+    self-contained: true
