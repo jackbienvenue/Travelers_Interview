@@ -1,26 +1,38 @@
 ---
 title: "Traveler's BI&A LDP Internship Interview"
-format: 
- revealjs:
-  slideNumber: true
-  theme: white
-  include-in-header: 
-   text: |
-    <style>
-    .v-center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-    }
-    </style>
-highlight-style: "github"  
+format:
+  revealjs:
+    revealjs-url: reveal.js
+    theme: white
+highlight-style: github  
 footer: "Jack Bienvenue | STAT5845" 
 preview-links: false
-css: "jb_revealjs_style.css"
+css: jb_revealjs_style.css
 ---
 
-# Hello
+<section data-auto-animate data-background="images/travelers.png" data-background-repeat="repeat" data-background-size="100px">
 
-# Title 2
+  <div style="background-color: rgba(62, 64, 61, 0.65); 
+              padding: 10px; 
+              border-radius: 6px; 
+              display: inline-block; 
+              margin-top: 20px;">
+  <h3 style="color: black; text-align: center; margin-top: 0px;"> <em>How can we organize the effort to predict outages? </em> </h3>
+  </div>
 
+   <div style="background-color: rgba(62, 64, 61, 0.65); 
+              padding: 10px; 
+              border-radius: 6px; 
+              display: inline-block; 
+              margin-top: 40px;">
+  <h3 class="fragment" style="text-align: center;"> By constructing a statistical framework, but...</h3> 
+  </div>
+
+<div style="background-color: rgba(62, 64, 61, 0.65); 
+              padding: 38px; 
+              border-radius: 6px; 
+              display: inline-block; 
+              margin-top: 40px;">
+  <h3 class="fragment" style="text-align: center; color: white; margin-top: 0px;">   Spatial Data Processing is Essential to Begin</h3> 
+  </div>
+</section>

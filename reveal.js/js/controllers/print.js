@@ -4,7 +4,7 @@ import { queryAll, createStyleSheet } from '../utils/util.js'
 /**
  * Setups up our presentation for printing/exporting to PDF.
  */
-export default class PrintView {
+export default class Print {
 
 	constructor( Reveal ) {
 
@@ -16,7 +16,7 @@ export default class PrintView {
 	 * Configures the presentation for printing to a static
 	 * PDF.
 	 */
-	async activate() {
+	async setupPDF() {
 
 		const config = this.Reveal.getConfig();
 		const slides = queryAll( this.Reveal.getRevealElement(), SLIDES_SELECTOR )
@@ -42,11 +42,11 @@ export default class PrintView {
 		// Limit the size of certain elements to the dimensions of the slide
 		createStyleSheet( '.reveal section>img, .reveal section>video, .reveal section>iframe{max-width: '+ slideWidth +'px; max-height:'+ slideHeight +'px}' );
 
-		document.documentElement.classList.add( 'reveal-print', 'print-pdf' );
+		document.documentElement.classList.add( 'print-pdf' );
 		document.body.style.width = pageWidth + 'px';
 		document.body.style.height = pageHeight + 'px';
 
-		const viewportElement = this.Reveal.getViewportElement();
+		const viewportElement = document.querySelector( '.reveal-viewport' );
 		let presentationBackground;
 		if( viewportElement ) {
 			const viewportStyles = window.getComputedStyle( viewportElement );
@@ -223,16 +223,14 @@ export default class PrintView {
 		// Notify subscribers that the PDF layout is good to go
 		this.Reveal.dispatchEvent({ type: 'pdf-ready' });
 
-		viewportElement.classList.remove( 'loading-scroll-mode' );
-
 	}
 
 	/**
-	 * Checks if the print mode is/should be activated.
+	 * Checks if this instance is being used to print a PDF.
 	 */
-	isActive() {
+	isPrintingPDF() {
 
-		return this.Reveal.getConfig().view === 'print';
+		return ( /print-pdf/gi ).test( window.location.search );
 
 	}
 

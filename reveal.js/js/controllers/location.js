@@ -49,7 +49,7 @@ export default class Location {
 		// If the first bit is not fully numeric and there is a name we
 		// can assume that this is a named link
 		if( !/^[0-9]*$/.test( bits[0] ) && name.length ) {
-			let slide;
+			let element;
 
 			let f;
 
@@ -62,14 +62,12 @@ export default class Location {
 
 			// Ensure the named link is a valid HTML ID attribute
 			try {
-				slide = document
-					.getElementById( decodeURIComponent( name ) )
-					.closest('.slides section');
+				element = document.getElementById( decodeURIComponent( name ) );
 			}
 			catch ( error ) { }
 
-			if( slide ) {
-				return { ...this.Reveal.getIndices( slide ), f };
+			if( element ) {
+				return { ...this.Reveal.getIndices( element ), f };
 			}
 		}
 		else {
