@@ -25,7 +25,7 @@ Content to share with Traveler's Business Insights &amp; Analytics Internship Hi
       </p>
     </td>
     <td>
-      <img src="README_images/Jack.png" alt="Jack Bienvenue" width="375" style="margin-left: 20px;"/>
+      <img src="README_images/Jack.png" alt="Jack Bienvenue" style="width: 100%; margin-left: 20px;"/>
     </td>
   </tr>
 </table>
@@ -37,20 +37,17 @@ Jack is eager to share his love of data science with Travelers and intends to us
 <table>
   <tr>
     <td>
-      <img src="README_images/carpentry.png" alt="Woodworking" width="375" style="margin-right: 20px;"/>
+      <img src="README_images/carpentry.png" alt="Woodworking" style="width: 100%; margin-right: 20px;"/>
     </td>
     <td>
       <p align="left">
-        In his spare time, Jack enjoys hiking, kayaking, golf, and carpentry, upcycling undesirable wood into custom woodworking designs. He also enjoys trying out new programming projects. 
-
-        Spatial data science is Jack's specialty. He has experience in numerous spatial analytical projects, from building machine learning classifiers to identify solar panels from aerial imagery, to discerning whether the value of Connecticut's coastal real estate has been impacted by climate change risks relative to inland real estate, to geographically-specific power outage damage prediction from weather variables, to improving outage prediction model inputs using ultra-high spatiotemporal resolution forecasting and geostatistical methods.
+        In his spare time, Jack enjoys hiking, kayaking, golf, and carpentry, upcycling undesirable wood into custom woodworking designs. He also enjoys trying out new programming projects. <br></br> Spatial data science is Jack's specialty. He has experience in numerous spatial analytical projects, from building machine learning classifiers to identify solar panels from aerial imagery, to discerning whether the value of Connecticut's coastal real estate has been impacted by climate change risks relative to inland real estate, to geographically-specific power outage damage prediction from weather variables, to improving outage prediction model inputs using ultra-high spatiotemporal resolution forecasting and geostatistical methods.
       </p>
     </td>
   </tr>
 </table>
 
 **Thank you so much for your consideration. I hope to join Travelers this coming summer!**
-
 
 ---
 Copyright - 2025, Jack Bienvenue. All rights reserved for original material.
