@@ -25,7 +25,7 @@ Content to share with Traveler's Business Insights &amp; Analytics Internship Hi
       </p>
     </td>
     <td>
-      <img src="README_images/Jack.png" alt="Jack Bienvenue" style="width: 100%; margin-left: 20px;"/>
+      <img src="README_images/Jack.png" alt="Jack Bienvenue" style="width: 175%; margin-left: 20px;"/>
     </td>
   </tr>
 </table>
@@ -37,7 +37,7 @@ Jack is eager to share his love of data science with Travelers and intends to us
 <table>
   <tr>
     <td>
-      <img src="README_images/carpentry.png" alt="Woodworking" style="width: 100%; margin-right: 20px;"/>
+      <img src="README_images/carpentry.png" alt="Woodworking" style="width: 200%; margin-right: 20px;"/>
     </td>
     <td>
       <p align="left">
