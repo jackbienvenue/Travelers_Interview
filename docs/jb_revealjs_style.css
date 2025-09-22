@@ -1,4 +1,3 @@
-/* Keep this to style the two columns properly inside Reveal.js slides */
 .columns {
   display: flex;
   justify-content: space-between;
@@ -42,4 +41,29 @@
   padding: 20px;
   border-radius: 12px;
   display: inline-block;
+}
+
+.repeating-line {
+  background-image: url("images/travelers.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: auto 100%; 
+  height: 80px;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  display: block;
+}
+
+.red-box {
+  background-color: rgba(210, 0, 0, 1);
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.red-box h1 {
+  color: white;
+  margin: 0;
 }
